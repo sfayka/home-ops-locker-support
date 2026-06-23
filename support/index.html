@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Ops Locker Support</title>
+    <meta
+      name="description"
+      content="Support information for Home Ops Locker, an iOS app for local-first home records, receipts, warranties, manuals, reminders, and support packets."
+    >
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #5c667a;
+        --line: #d8dee8;
+        --paper: #ffffff;
+        --wash: #f5f7fa;
+        --accent: #0a6b58;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--wash);
+        color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 56px 20px 72px;
+      }
+
+      header,
+      section {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        margin-bottom: 16px;
+      }
+
+      h1,
+      h2 {
+        line-height: 1.2;
+        margin: 0 0 12px;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 6vw, 3rem);
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p,
+      ul {
+        margin: 0 0 14px;
+      }
+
+      ul {
+        padding-left: 1.3rem;
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 650;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .contact {
+        display: inline-flex;
+        min-height: 44px;
+        align-items: center;
+        border-radius: 8px;
+        background: var(--accent);
+        color: white;
+        padding: 0 16px;
+        text-decoration: none;
+      }
+
+      @media (max-width: 520px) {
+        main {
+          padding: 28px 12px 48px;
+        }
+
+        header,
+        section {
+          padding: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Home Ops Locker Support</h1>
+        <p>
+          Home Ops Locker is an iOS app for keeping local records for receipts,
+          warranties, manuals, serial numbers, reminders, and support packets
+          for important household items.
+        </p>
+        <p class="muted">Last updated June 23, 2026.</p>
+      </header>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">Contact Support</h2>
+        <p>
+          For questions, bug reports, purchase questions, or help using the app,
+          email support and include the details listed below.
+        </p>
+        <p><a class="contact" href="mailto:sfayka@gmail.com?subject=Home%20Ops%20Locker%20Support">Email Home Ops Locker Support</a></p>
+        <ul>
+          <li>App version and build number.</li>
+          <li>iOS version and device model.</li>
+          <li>The screen or workflow where the issue happened.</li>
+          <li>Whether the issue involved item capture, attachments, OCR suggestions, reminders, search, export, backups, Shortcuts, or in-app purchases.</li>
+          <li>Steps that reproduce the issue, if known.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="release">
+        <h2 id="release">Current Release</h2>
+        <p>
+          The current release is local-first. Records and attachments stay on
+          your device unless you choose to export or share them through iOS.
+        </p>
+        <p>
+          iCloud sync, shared household access, and backend email receipt
+          forwarding are not enabled in this release.
+        </p>
+      </section>
+
+      <section aria-labelledby="purchases">
+        <h2 id="purchases">Purchases</h2>
+        <p>
+          Home Ops Locker uses Apple's In-App Purchase system for Premium.
+          Premium unlocks unlimited item records, OCR extraction, advanced
+          exports, insurance inventory export, and future sync/shared-household
+          work when those features ship.
+        </p>
+        <p>
+          Viewing, editing, deleting, searching, backing up, and exporting
+          existing records remain available after a free user reaches the free
+          item creation limit.
+        </p>
+      </section>
+
+      <section aria-labelledby="privacy">
+        <h2 id="privacy">Privacy</h2>
+        <p>
+          Home Ops Locker does not use developer-operated analytics,
+          advertising SDKs, account registration, or backend data storage in the
+          current release.
+        </p>
+        <p><a href="../privacy/">Read the Home Ops Locker privacy policy</a></p>
+      </section>
+    </main>
+  </body>
+</html>
